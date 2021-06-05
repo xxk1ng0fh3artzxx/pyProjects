@@ -6,12 +6,24 @@
   text-decoration: none;
   list-style: none;
 }
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 50px;
+  height: 100px;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+}
 
 .profile {
   grid-area: profile;
   background-color: blue;
   border-radius: 50px;
-  height: 228px;
+  height: 288px;
 }
 .current-chores {
   grid-area: current-chores;
@@ -35,11 +47,14 @@
   grid-area: chore-history;
   background-color: aqua;
   border-radius: 50px;
+  height: 400px;
 }
 .main-grid {
+  margin: 0 50px;
   display: grid;
-  grid-template-columns: 3rf 6fr 3fr;
-  column-gap: 15px;
+  grid-template-columns: 3fr 6fr 3fr;
+  column-gap: 20px;
+  row-gap: 40px;
   grid-template-rows: auto;
   grid-template-areas:
     "profile open-chores leader-board"
