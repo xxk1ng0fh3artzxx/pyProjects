@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+.profile {
+  grid-area: profile;
+  background-color: blue;
+  border-radius: 50px;
+  height: 228px;
+}
+.current-chores {
+  grid-area: current-chores;
+  background-color: red;
+  border-radius: 50px;
+  height: 472px;
+}
+.open-chores {
+  grid-area: open-chores;
+  background-color: green;
+  border-radius: 50px;
+  height: 810px;
+}
+.leader-board {
+  grid-area: leader-board;
+  background-color: grey;
+  border-radius: 50px;
+  height: 368px;
+}
+.chore-history {
+  grid-area: chore-history;
+  background-color: aqua;
+  border-radius: 50px;
+}
+.main-grid {
+  display: grid;
+  grid-template-columns: 3rf 6fr 3fr;
+  column-gap: 15px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "profile open-chores leader-board"
+    "current-chores open-chores leader-board"
+    "current-chores open-chores chore-history"
+    "current-chores open-chores chore-history";
+}
