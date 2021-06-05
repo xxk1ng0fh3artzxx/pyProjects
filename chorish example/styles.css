@@ -5,6 +5,21 @@
   outline: none;
   text-decoration: none;
   list-style: none;
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+.nav-font {
+  font-family: Monaco;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+.nav-item {
+  margin-left: 38px;
 }
 .main-nav {
   display: flex;
@@ -21,33 +36,58 @@
 
 .profile {
   grid-area: profile;
-  background-color: blue;
   border-radius: 50px;
   height: 288px;
+
+  background: #ffffff;
+  box-shadow: 10px 15px 30px 7px rgba(0, 0, 0, 0.05),
+    -10px -10px 26px rgba(255, 255, 255, 0.83),
+    inset 8px 9px 20px -13px rgba(0, 0, 0, 0.08);
+  border-radius: 49px;
 }
 .current-chores {
   grid-area: current-chores;
-  background-color: red;
   border-radius: 50px;
   height: 472px;
+
+  background: #ffffff;
+  box-shadow: 10.0134px 15.0201px 30.0402px rgba(0, 0, 0, 0.05),
+    -10.0134px -10.0134px 26.0348px rgba(255, 255, 255, 0.83),
+    inset 8px 9px 20px -13px rgba(0, 0, 0, 0.08);
+  border-radius: 49.0656px;
 }
 .open-chores {
   grid-area: open-chores;
-  background-color: green;
   border-radius: 50px;
   height: 810px;
+
+  background: #ffffff;
+  box-shadow: 10px 15px 30px 7px rgba(0, 0, 0, 0.05),
+    -10px -10px 26px rgba(255, 255, 255, 0.83),
+    inset 8px 9px 20px -13px rgba(0, 0, 0, 0.08);
+  border-radius: 49px;
 }
 .leader-board {
   grid-area: leader-board;
-  background-color: grey;
   border-radius: 50px;
   height: 368px;
+
+  background: #ffffff;
+  box-shadow: 10px 15px 30px 7px rgba(0, 0, 0, 0.05),
+    -10px -10px 26px rgba(255, 255, 255, 0.83),
+    inset 8px 9px 20px -13px rgba(0, 0, 0, 0.08);
+  border-radius: 49px;
 }
 .chore-history {
   grid-area: chore-history;
-  background-color: aqua;
   border-radius: 50px;
   height: 400px;
+
+  background: #ffffff;
+  box-shadow: 10.0134px 15.0201px 30.0402px rgba(0, 0, 0, 0.05),
+    -10.0134px -10.0134px 26.0348px rgba(255, 255, 255, 0.83),
+    inset 8px 9px 20px -13px rgba(0, 0, 0, 0.08);
+  border-radius: 49.0656px;
 }
 .main-grid {
   margin: 0 50px;
